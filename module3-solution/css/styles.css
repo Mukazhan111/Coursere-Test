@@ -49,6 +49,8 @@ div .col-md-12 {
 
 }
 
+
+
 div .paragraph {
 	text-align: left;
 	margin: 10px;
@@ -91,7 +93,11 @@ div #container-fluid {
 	.col-md-12 {
 		margin-right: 10px;
 	}
+	ul {
+		display: none;
+	}
 
+	
 
 }
 
@@ -109,6 +115,7 @@ div #container-fluid {
 	}
 
 	ul {
+		display: block;
 		position: fixed;
 		width: 100%;
 		height: 100vh;
